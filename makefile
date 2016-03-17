@@ -1,6 +1,9 @@
 
 all:
-  mpicc -o mpi mpi.c
+	mpicc -o mpi mpi.c
+
+clean:
+	rm mpi.exe
 
 
  
