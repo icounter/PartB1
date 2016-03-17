@@ -1,3 +1,10 @@
+There are 2 mistake
+1. The fomular error in mpi.c
+    correct fomular should be 4/(1+x*x)
+2. makefile error
+the source is mpi.c not mpi.cpp
+output is mpi.exe not mpi
+
 >>>> PBS Master compute node is: compute-0-70.local
 
 >>>> PBS Assigned these nodes to your job: 
