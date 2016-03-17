@@ -20,3 +20,9 @@ These may also be useful commands:
   module list
   
   module avail
+There are 2 mistake
+1. The fomular error in mpi.c
+    correct fomular should be 4/(1+x*x)
+2. makefile error
+the source is mpi.c not mpi.cpp
+output is mpi.exe not mpi
