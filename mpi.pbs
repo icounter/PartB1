@@ -16,4 +16,4 @@ echo ""
 cat $PBS_NODEFILE
 echo ""
 
-mpirun -np 8 -machinefile $PBS_NODEFILE ./mpi.exe
+mpirun -np 8 -machinefile $PBS_NODEFILE ./mpi
